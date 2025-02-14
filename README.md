@@ -21,6 +21,7 @@ The following models were implemented and evaluated for DR classification:
 ├── dr-detection-resnet34.ipynb       # Jupyter notebook for ResNet34 model
 ├── DR_detection_report.pdf           # Detailed report on project findings
 ├── README.md                         # Project documentation
+```
 
 📊 Dataset
 
