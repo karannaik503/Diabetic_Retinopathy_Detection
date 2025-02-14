@@ -59,9 +59,9 @@ These structured datasets enabled more effective training and evaluation, ensuri
 
 ## 📌 Dataset Links:
 
-GitHub Repository for EYEQ Dataset
+1. GitHub Repository for EYEQ Dataset: [Click here](https://github.com/HzFu/EyeQ?tab=readme-ov-file)
 
-Papers with Code - EYEQ Dataset
+2. Papers with Code - EYEQ Dataset: [Click here](https://paperswithcode.com/dataset/eyeq)
 
 ## 🔧 Methodology:
 
