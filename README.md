@@ -47,7 +47,8 @@ GitHub Repository for EYEQ Dataset
 
 Papers with Code - EYEQ Dataset
 
-🔧 Methodology
+## 🔧 Methodology:
+
 **1. Data Processing:** Retinal images were preprocessed through resizing, normalization, and augmentation to enhance model robustness and improve generalization.
 
 **2. Model Selection and Setup:** EfficientNet and ResNet34 were chosen for their strong performance in image classification. The architectures were adapted for multi-class DR classification, with final layers adjusted accordingly.
