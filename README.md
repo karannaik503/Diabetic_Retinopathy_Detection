@@ -49,11 +49,11 @@ The dataset presents real-world challenges, including noise, variations in image
 
 The original dataset consisted of approximately **30,000** retinal images for diabetic retinopathy detection. To enhance training efficiency and improve model performance, the dataset underwent systematic preprocessing and splitting:
 
-**- Balanced Class Distribution:** The dataset was divided into **training and validation sets** while ensuring an even representation of all DR severity levels.
+- **Balanced Class Distribution:** The dataset was divided into **training and validation sets** while ensuring an even representation of all DR severity levels.
 
-**- Data Reduction for Experimentation:** A reduced subset retaining 50% of the images was created to facilitate quicker model experimentation without compromising label diversity.
+- **Data Reduction for Experimentation:** A reduced subset retaining 50% of the images was created to facilitate quicker model experimentation without compromising label diversity.
 
-**- Preprocessing Techniques:** Steps included image resizing, normalization, and augmentation to improve model robustness and generalization.
+- **Preprocessing Techniques:** Steps included image resizing, normalization, and augmentation to improve model robustness and generalization.
 
 These structured datasets enabled more effective training and evaluation, ensuring reliable model performance across various testing scenarios.
 
