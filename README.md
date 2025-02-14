@@ -81,23 +81,23 @@ These structured datasets enabled more effective training and evaluation, ensuri
 
 ## 📈 Results
 
-EfficientNet achieved a validation accuracy of **~82%**.
+- EfficientNet achieved a validation accuracy of **~82%**.
 
-ResNet34 achieved a validation accuracy of **~80%**.
+- ResNet34 achieved a validation accuracy of **~80%**.
 
 ![performance on efficientnet](images/efficientnet.png)
 
-![performance on resnet](images/esnet34.png)
+![performance on resnet](images/resnet34.png)
 
 Both models demonstrated stable convergence, but EfficientNet slightly outperformed ResNet34 in classification tasks.
 
 ## 📌 Future Improvements
 
-Implementing ensemble learning for better predictions.
+- Implementing ensemble learning for better predictions.
 
-Exploring advanced data augmentation techniques.
+- Exploring advanced data augmentation techniques.
 
-Improving model interpretability for better explainability in medical diagnostics.
+- Improving model interpretability for better explainability in medical diagnostics.
 
 ## 📝 Report
 
