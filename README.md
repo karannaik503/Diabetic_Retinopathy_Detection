@@ -1,21 +1,22 @@
-Diabetic Retinopathy Detection
+# Diabetic Retinopathy Detection
 
 This repository contains an implementation of Diabetic Retinopathy (DR) Detection using deep learning models, specifically EfficientNet and ResNet34. The goal is to develop an automated classification system that can assist healthcare professionals in detecting DR severity levels.
 
-📌 Project Overview
+## 📌 Project Overview
 
-Diabetic Retinopathy (DR) is a serious complication of diabetes that can lead to vision impairment or blindness. Early detection is essential to prevent severe damage. This project employs deep learning models to classify retinal images into different DR severity levels.
+**Diabetic Retinopathy** (DR) is a serious complication of diabetes that can lead to vision impairment or blindness. Early detection is essential to prevent severe damage. This project employs deep learning models to classify retinal images into different DR severity levels.
 
-🚀 Models Used
+## 🚀 Models Used
 
 The following models were implemented and evaluated for DR classification:
 
-EfficientNet: Known for its balance between accuracy and efficiency, EfficientNet scales depth, width, and resolution to improve performance.
+- **EfficientNet:** Known for its balance between accuracy and efficiency, EfficientNet scales depth, width, and resolution to improve performance.
 
-ResNet34: A deep residual network that utilizes skip connections to preserve gradient flow and minimize vanishing gradient issues.
+- **ResNet34:** A deep residual network that utilizes skip connections to preserve gradient flow and minimize vanishing gradient issues.
 
-📂 Repository Structure
+## 📂 Repository Structure
 
+```bash
 ├── dr-detection-efficientnet.ipynb   # Jupyter notebook for EfficientNet model
 ├── dr-detection-resnet34.ipynb       # Jupyter notebook for ResNet34 model
 ├── DR_detection_report.pdf           # Detailed report on project findings
