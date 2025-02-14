@@ -23,49 +23,52 @@ The following models were implemented and evaluated for DR classification:
 ├── README.md                         # Project documentation
 ```
 
-📊 Dataset
+## 📊 Dataset
 
-The models were trained and evaluated using the EYEQ Dataset, which consists of high-resolution retinal images captured under various imaging conditions. Each subject has both left and right eye images, labeled accordingly.
+The models were trained and evaluated using the "EYEQ Dataset", which consists of high-resolution retinal images captured under various imaging conditions. Each subject has both left and right eye images, labeled accordingly.
 
 Images are classified into five DR severity levels:
 
-0 - No DR
+- 0 - No DR
 
-1 - Mild
+- 1 - Mild
 
-2 - Moderate
+- 2 - Moderate
 
-3 - Severe
+- 3 - Severe
 
-4 - Proliferative DR
+- 4 - Proliferative DR
 
 The dataset presents real-world challenges, including noise, variations in image quality, and differences in camera types. Robust algorithms must account for artifacts, blurriness, and varying exposures to ensure accurate predictions.
 
-📌 Dataset Links:
+## 📌 Dataset Links:
 
 GitHub Repository for EYEQ Dataset
 
 Papers with Code - EYEQ Dataset
 
 🔧 Methodology
+**1. Data Processing:** Retinal images were preprocessed through resizing, normalization, and augmentation to enhance model robustness and improve generalization.
 
-Data Preprocessing: Image resizing, augmentation, and normalization.
+**2. Model Selection and Setup:** EfficientNet and ResNet34 were chosen for their strong performance in image classification. The architectures were adapted for multi-class DR classification, with final layers adjusted accordingly.
 
-Model Training: Fine-tuning EfficientNet and ResNet34 with cross-entropy loss and Adam optimizer.
+**3. Model Training:** Both models were trained using cross-entropy loss and the Adam optimizer with learning rate scheduling. Iterative improvements were made by adjusting training parameters.
 
-Evaluation Metrics: Accuracy, Precision, Recall, F1-Score, and ROC-AUC were used to assess model performance.
+**4. Validation and Testing:** The trained models were evaluated on validation and test sets using cross-validation techniques to ensure generalization and prevent overfitting.
 
-Hyperparameter Tuning: Learning rates, batch sizes, and optimizers were fine-tuned for optimal performance.
+**5. Evaluation Metrics:** Accuracy, Precision, Recall, F1-Score, and ROC-AUC were used to assess model performance, focusing on balanced classification across DR severity levels.
 
-📈 Results
+**6. Result Comparison and Selection:** EfficientNet and ResNet34 were compared based on validation performance, with EfficientNet emerging as the top-performing model due to its superior accuracy and computational efficiency.
 
-EfficientNet achieved a validation accuracy of ~81%.
+## 📈 Results
 
-ResNet34 achieved a validation accuracy of ~80%.
+EfficientNet achieved a validation accuracy of **~81%**.
+
+ResNet34 achieved a validation accuracy of **~80%**.
 
 Both models demonstrated stable convergence, but EfficientNet slightly outperformed ResNet34 in classification tasks.
 
-📌 Future Improvements
+## 📌 Future Improvements
 
 Implementing ensemble learning for better predictions.
 
@@ -73,15 +76,15 @@ Exploring advanced data augmentation techniques.
 
 Improving model interpretability for better explainability in medical diagnostics.
 
-📝 Report
+## 📝 Report
 
-For a detailed explanation of the project, refer to the DR_detection_report.pdf file.
+For a detailed explanation of the project, refer to the DR_detection_report.pdf file being attached in the repository.
 
-🏆 Contributors
+## 🏆 Contributors
 
-Karan Naik
+1. Karan Naik
 
-Abhishikt Mahajan
+2. Abhishikt Mahajan
 
 🔗 License
 
