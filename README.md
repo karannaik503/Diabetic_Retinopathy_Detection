@@ -27,6 +27,8 @@ The following models were implemented and evaluated for DR classification:
 
 The models were trained and evaluated using the "EYEQ Dataset", which consists of high-resolution retinal images captured under various imaging conditions. Each subject has both left and right eye images, labeled accordingly.
 
+EyeQ dataset has 28,792 retinal images with a three-level quality grading (i.e., 'Good', 'Usable' and 'Reject').
+
 Images are classified into five DR severity levels:
 
 - 0 - No DR
