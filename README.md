@@ -29,6 +29,8 @@ The models were trained and evaluated using the "EYEQ Dataset", which consists o
 
 EyeQ dataset has 28,792 retinal images with a three-level quality grading (i.e., 'Good', 'Usable' and 'Reject').
 
+![Retinal images](images/retinal_images.png)
+
 Images are classified into five DR severity levels:
 
 - 0 - No DR
