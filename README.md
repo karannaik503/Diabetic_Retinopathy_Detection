@@ -45,6 +45,18 @@ Images are classified into five DR severity levels:
 
 The dataset presents real-world challenges, including noise, variations in image quality, and differences in camera types. Robust algorithms must account for artifacts, blurriness, and varying exposures to ensure accurate predictions.
 
+## 🔧 Dataset Preprocessing & Splitting
+
+The original dataset consisted of approximately **30,000** retinal images for diabetic retinopathy detection. To enhance training efficiency and improve model performance, the dataset underwent systematic preprocessing and splitting:
+
+**- Balanced Class Distribution:** The dataset was divided into **training and validation sets** while ensuring an even representation of all DR severity levels.
+
+**- Data Reduction for Experimentation:** A reduced subset retaining 50% of the images was created to facilitate quicker model experimentation without compromising label diversity.
+
+**- Preprocessing Techniques:** Steps included image resizing, normalization, and augmentation to improve model robustness and generalization.
+
+These structured datasets enabled more effective training and evaluation, ensuring reliable model performance across various testing scenarios.
+
 ## 📌 Dataset Links:
 
 GitHub Repository for EYEQ Dataset
@@ -52,6 +64,8 @@ GitHub Repository for EYEQ Dataset
 Papers with Code - EYEQ Dataset
 
 ## 🔧 Methodology:
+
+![DR Detection Workflow](images/methods.png)
 
 **1. Data Processing:** Retinal images were preprocessed through resizing, normalization, and augmentation to enhance model robustness and improve generalization.
 
@@ -67,9 +81,13 @@ Papers with Code - EYEQ Dataset
 
 ## 📈 Results
 
-EfficientNet achieved a validation accuracy of **~81%**.
+EfficientNet achieved a validation accuracy of **~82%**.
 
 ResNet34 achieved a validation accuracy of **~80%**.
+
+![performance on efficientnet](images/efficientnet.png)
+
+![performance on resnet](images/esnet34.png)
 
 Both models demonstrated stable convergence, but EfficientNet slightly outperformed ResNet34 in classification tasks.
 
